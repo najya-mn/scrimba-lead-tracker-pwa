@@ -20,6 +20,15 @@
         </ul>
         <script type="module" src="index.js"></script>
     </div>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/scrimba-lead-tracker-pwa/sw.js')
+                .then(() => console.log('Service Worker registered'))
+                .catch((err) => console.log('Service Worker registration failed:', err));
+        }
+    </script>
+
 </body>
 
 </html>
