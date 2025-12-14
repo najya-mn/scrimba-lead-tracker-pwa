@@ -51,7 +51,7 @@ This project was originally built as part of a Scrimba tutorial and has since be
 
 ## Acknowledgements
 
-Based on a Scrimba's Learn JavaScript tutorial project and extended with additional styling and UI improvements.
+Based on Scrimba's Learn JavaScript tutorial project and extended with additional styling and UI improvements.
 
 
 
